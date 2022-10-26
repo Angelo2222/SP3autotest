@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sp3.Marconi_AutoTest", "Sp3.Marconi_AutoTest.csproj", "{15EFD872-FC69-46F7-8762-B9C058381909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15EFD872-FC69-46F7-8762-B9C058381909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EFD872-FC69-46F7-8762-B9C058381909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EFD872-FC69-46F7-8762-B9C058381909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EFD872-FC69-46F7-8762-B9C058381909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E29E0CE-BFBD-47B9-B04B-2995F01C5447}
+	EndGlobalSection
+EndGlobal

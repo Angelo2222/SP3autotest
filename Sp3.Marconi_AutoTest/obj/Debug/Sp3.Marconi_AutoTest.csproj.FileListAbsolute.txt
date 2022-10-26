@@ -1,0 +1,10 @@
+D:\Escritorio\Sp3.Marconi_AutoTest-master\bin\Debug\Sp3.Marconi_AutoTest.exe.config
+D:\Escritorio\Sp3.Marconi_AutoTest-master\bin\Debug\Sp3.Marconi_AutoTest.exe
+D:\Escritorio\Sp3.Marconi_AutoTest-master\bin\Debug\Sp3.Marconi_AutoTest.pdb
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.csproj.AssemblyReference.cache
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.Main.resources
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.Properties.Resources.resources
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.csproj.GenerateResource.cache
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.csproj.CoreCompileInputs.cache
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.exe
+D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.pdb
