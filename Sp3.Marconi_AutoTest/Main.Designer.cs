@@ -110,7 +110,7 @@
             this.txtDominio.Size = new System.Drawing.Size(117, 20);
             this.txtDominio.TabIndex = 11;
             this.txtDominio.TextChanged += new System.EventHandler(this.txtDominio_TextChanged);
-            //this.txtDominio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDominio_KeyPress);
+            this.txtDominio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtDominio_KeyPress);
             // 
             // txtNumerodeturno
             // 

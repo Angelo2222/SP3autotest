@@ -13,15 +13,14 @@ namespace Sp3.Marconi_AutoTest
     public partial class Main : Form
     {
         //DECLARACION DE VARIABLES PUTOOOO GLOBALES
-        int numeroTurno;
-        string nombreDominio;
-        int anioFabricacion;
-        string nombreTitular;
+        int vContadorTurnos = 0;
+        int vModeloMasAntiguo = 0;
+        int vCantidadDom6 = 0;
         //DECLARAR ARRAYS
         //VECTOR - ARRAYS 1 DIMENSION
-        string[] vecAutoTest = new string[5];
+        string[] vector = new string[0];
         //MATRIZ - ARRAY 2 DIMENSIONES
-        string[,] natAutoTest = new string[5, 10];
+        string[,] natAutoTest = new string[0,0];
         public Main()
         {
             InitializeComponent();
@@ -34,16 +33,24 @@ namespace Sp3.Marconi_AutoTest
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            numeroTurno = int.Parse(txtNumerodeturno.Text);
-            nombreDominio = txtDominio.Text;
-            anioFabricacion = Convert.ToInt32(numFabricacion.Value);
-            nombreTitular = txtTitular.Text;
-
-            MessageBox.Show("REGISTRO REALIZADO","REGISTRO",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
-
-            LimpiarInterfaz();
+            if (txtDominio.Text.Length >= 6 && txtTitular.Text.Length >= 2)
+            {
+                MessageBox.Show("Datos ingresados correctamente");
+                vContadorTurnos++;
+                if (numFabricacion.Value < vModeloMasAntiguo || vModeloMasAntiguo == 0)
+                {
+                    vModeloMasAntiguo = Convert.ToInt32(numFabricacion.Value);
+                }
+                if (txtDominio.Text.Length == 6)
+                {
+                    vCantidadDom6++;
+                }
+                LimpiarInterfaz();
+            }
+            else
+            {
+                MessageBox.Show("Faltan o hay datos ingresados incorrectamente");
+            }
         }
         private void LimpiarInterfaz()
         {
@@ -57,13 +64,19 @@ namespace Sp3.Marconi_AutoTest
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(numeroTurno + nombreTitular + nombreDominio + numFabricacion);
+            txtCantidaddeturnos.Text = vContadorTurnos.ToString();
+            txtAntiguo.Text = vModeloMasAntiguo.ToString();
+            txtCaracteres.Text = vCantidadDom6.ToString();
         }
 
         private void txtNumerodeturno_KeyPress(object sender, KeyPressEventArgs e)
         {
-            
-           
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true;
+                MessageBox.Show("Solamente números", "Error");
+            }
+
         }
        
 
@@ -74,13 +87,18 @@ namespace Sp3.Marconi_AutoTest
 
         private void txtDominio_TextChanged(object sender, EventArgs e)
         {
-            if (txtDominio.Text !="")
+            if (txtDominio.Text != "")
             {
+                lblFabricacion.Enabled = true;
                 numFabricacion.Enabled = true;
+                lblTitular.Enabled = true;
+                txtTitular.Enabled = true;
             }
             else
             {
+                lblFabricacion.Enabled = false;
                 numFabricacion.Enabled = false;
+                lblTitular.Enabled = false;
                 txtTitular.Enabled = false;
             }
         }
@@ -89,10 +107,12 @@ namespace Sp3.Marconi_AutoTest
         {
             if (txtNumerodeturno.Text != "")
             {
+                lblDominio.Enabled = true;
                 txtDominio.Enabled = true;
             }
             else
             {
+                lblDominio.Enabled = false;
                 txtDominio.Enabled = false;
             }
         }
@@ -111,13 +131,21 @@ namespace Sp3.Marconi_AutoTest
 
         private void txtTitular_TextChanged(object sender, EventArgs e)
         {
-            if (txtDominio.Text != "")
+            if (txtTitular.Text != "")
             {
-                txtTitular.Enabled = true;
+                btnRegistrar.Enabled = true;
             }
             else
             {
-                txtTitular.Enabled = false;
+                btnRegistrar.Enabled = false;
+            }
+        }
+
+        private void txtDominio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < '0' || e.KeyChar > '9') && !char.IsControl(e.KeyChar) && !char.IsLetter(e.KeyChar))
+            {
+                e.Handled = true;
             }
         }
     }

@@ -8,3 +8,14 @@ D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.csproj.
 D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.csproj.CoreCompileInputs.cache
 D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.exe
 D:\Escritorio\Sp3.Marconi_AutoTest-master\obj\Debug\Sp3.Marconi_AutoTest.pdb
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\bin\Debug\Sp3.Marconi_AutoTest.exe.config
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\bin\Debug\Sp3.Marconi_AutoTest.exe
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\bin\Debug\Sp3.Marconi_AutoTest.pdb
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.csproj.AssemblyReference.cache
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.Main.resources
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.Properties.Resources.resources
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.csproj.GenerateResource.cache
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.csproj.CoreCompileInputs.cache
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.exe
+C:\Users\MSI\Source\Repos\pryMarconiejerciciopararesolverAUTOTEST\Sp3.Marconi_AutoTest\obj\Debug\Sp3.Marconi_AutoTest.pdb
